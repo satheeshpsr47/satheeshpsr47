@@ -1,0 +1,181 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width" initial-scale=1>
+    </head>
+    <body>
+        <div class="hero">
+            <h2 class="name">SATHEESH <span>DON</span></h2>
+        <nav>    
+            <UL>
+                <LI ><a href="#">Home</a></LI>
+                <LI><a href="#about_">About us</a></LI>
+                <LI><a href="#">skills</a></LI>
+                <LI><a href="#">services</a></LI>
+            </UL>
+            <a href="#" class="btn">subscribe</a>
+            </nav>  
+            <div class="content">
+                   <h3>hello my name is</h3>
+                   <h2>SATHEESH <span>DON</span></h2>
+                   <h4>Iam a web developer</h4>
+             
+            <div class="subscribe">
+                <form action="">
+                    <input type="text" name="name" placeholder="enter your name">
+                    <input type="submit" name="submit" id="submit" value="submit">
+                </form>
+            </div>
+            </div>
+        </div>
+        <section class="about_me" id="about_">
+            <div class="main">
+                <img src="conference.jfif" alt="conference">
+                <div class="about_content">
+                    <h2>Its about me</h2>
+                    <h5>dev cum designer</h5>
+                    <p>iam a developer with no experience in web designing</p>
+                    <a href="#" class="btn_talk">lets talk</a>
+
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(conf.jpg);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav ul{
+    display: flex;
+    float: right
+    ;
+}
+nav ul li{
+    padding: 10px 20px;
+
+}
+.name{
+    color: white;
+    font-size: 25px;
+}
+span{
+    color: yellow;
+    font-style: italic;
+}
+nav ul li a{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:red;
+    transition: 1s;transition-delay: s;
+}
+.btn{
+   
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 40px;
+    text-decoration: none;text-align: center;
+font-size: 15px;
+}
+.content{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    transform: translate(50%,50%);
+}
+.content h3,h2,h1{
+    color: pink;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.content h4{
+    color: white
+    ;
+}
+.subscribe form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 120px 10px 10px;
+    border: 3px solid red;
+    border-radius: 40px;
+    
+}
+.subscribe form input:last-child{
+    display: inline-block;
+    color: aliceblue;
+    background-color: red;
+    border-radius: 40px;
+    padding: 8px 25px;
+    position: absolute;
+    top: 87px;
+    right: 3px;
+    border: none;
+box-shadow: 0px 0px 10px 0px black;
+}
+.about_me{
+    background-color: black;
+    padding: 100px 0px;
+    width: 100%;
+    
+
+}
+.about_me img{
+    height: auto;
+    width: 500px;
+}
+.about_content{
+    color: white;
+    margin: 20px 0px 0px 40px;
+    font-size: 30px;
+letter-spacing: 6px;
+
+}
+.about_content h2{
+color: white;
+font-size: 30px;
+
+}
+.about_content p{
+    font-size: 20px;
+}
+.main{
+    display: flex;
+}
+.btn_talk{
+   
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;text-align: center;
+font-size: 15px;}
+.btn_talk:hover{
+    background-color: transparent;
+border: solid red;
+cursor: pointer;
+padding: 5px;
+
+}
