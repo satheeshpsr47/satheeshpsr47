@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="text/javascript" src="demo.js"></script>
+    <link rel="stylesheet" href="demo.css" />
+  </head>
+  <body>
+    <!--<script src="../New folder (2)/script.js"></script>-->
+    <h2>Simple calculator using javascript</h2>
+    <div id="calc_1">
+      <form name="form1">
+        <input type="text" name="result" id="inp" />
+        <br />
+        <p class="emp"></p>
+        <br />
+
+        <input
+          type="button"
+          value="1"
+          class="but"
+          onclick="form1.result.value = form1.result.value+'1'"
+        />
+        <input
+          type="button"
+          value="2"
+          class="but"
+          onclick="form1.result.value = form1.result.value+'2'"
+        />
+        <input
+          type="button"
+          value="3"
+          class="but"
+          onclick="form1.result.value = form1.result.value+'3'"
+        />
+        <input
+          type="button"
+          value="+"
+          class="but"
+          onclick="form1.result.value = form1.result.value+'+' "
+        />
+        <br /><br />
+        <input
+          type="button"
+          value="4"
+          class="but"
+          onclick="form1.result.value = form1.result.value+'4'"
+        />
+        <input
+          type="button"
+          value="5"
+          class="but"
+          onclick="form1.result.value = form1.result.value+'5'"
+        />
+        <input
+          type="button"
+          value="6"
+          class="but"
+          onclick="form1.result.value = form1.result.value+'6'"
+        />
+        <input
+          type="button"
+          value="-"
+          class="but"
+          onclick="form1.result.value = form1.result.value+'-'"
+        />
+        <br /><br />
+        <input
+          type="button"
+          value="7"
+          class="but"
+          onclick="form1.result.value = form1.result.value+'7' "
+        />
+        <input
+          type="button"
+          value="8"
+          class="but"
+          onclick="form1.result.value = form1.result.value+'8' "
+        />
+        <input
+          type="button"
+          value="9"
+          class="but"
+          onclick="form1.result.value = form1.result.value+'9'"
+        />
+        <input
+          type="button"
+          value="*"
+          class="but"
+          onclick="form1.result.value = form1.result.value+'*'"
+        />
+        <br /><br />
+        <input
+          type="button"
+          value="."
+          class="but"
+          onclick="form1.result.value = form1.result.value+'.'"
+        />
+        <input
+          type="button"
+          value="0"
+          class="but"
+          onclick="form1.result.value = form1.result.value+'0'"
+        />
+        <input
+          type="button"
+          value="/"
+          class="but"
+          onclick="form1.result.value = form1.result.value+'/'"
+        />
+        <input
+          type="button"
+          value="="
+          class="but"
+          onclick="form1.result.value =
+        eval(form1.result.value) "
+        />
+
+        <br /><br />
+        <input
+          type="button"
+          name="clear"
+          id="clr"
+          class="but"
+          value="clear"
+          onclick="form1.result.value = ''"
+        />
+      </form>
+    </div>
+  </body>
+</html>
