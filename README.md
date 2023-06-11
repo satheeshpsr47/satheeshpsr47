@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @satheeshpsr47
-- 👀 I’m interested in webdesign
-- 🌱 I’m currently learning HTML/CSS/JAVASCRIPT
+- 👀 I’m a newbie in webdeveloping
+- 🌱 Technically skilled in HTML/CSS/JAVASCRIPT/REACT.JS
 - 💞️ I’m looking to collaborate on opensource projects
 - 📫 How to reach me email.satheeshpsr41@gmail.com
 
